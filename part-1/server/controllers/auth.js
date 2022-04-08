@@ -13,7 +13,7 @@ module.exports = {
         );
         if (authenticated) {
           let userToReturn = { ...user[i] };
-          delete userToReturn.passwordHash;
+          // delete userToReturn.passwordHash;
           res.status(200).send(users[i]);
         }
       }
@@ -36,7 +36,7 @@ module.exports = {
     let userToReturn = { ...user };
     delete userToReturn.passwordHash;
     console.log("Registering User");
-
+    console.log(passwordHash);
     res.status(200).send(req.body);
   },
 };
