@@ -13,7 +13,7 @@ module.exports = {
         );
         if (authenticated) {
           let userToReturn = { ...user[i] };
-          // delete userToReturn.passwordHash;
+          delete userToReturn.passwordHash;
           res.status(200).send(users[i]);
         }
       }
