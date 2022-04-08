@@ -71,7 +71,7 @@ form.addEventListener("submit", (event) => {
     .join("");
 });
 
-function encrypt(char) {
+const encrypt = (char) => {
   const shift = Number(form.shift.value);
   if (alphabet.includes(char.toUpperCase())) {
     const position = alphabet.indexOf(char.toUpperCase());
@@ -80,4 +80,4 @@ function encrypt(char) {
   } else {
     return char;
   }
-}
+};
