@@ -1,0 +1,10 @@
+Facebook's 553 million phone number and personal data leak of 2021
+a spokesperson said the data that was stolen was from 2019.
+While the data was still only a couple years old it could still be valuable.
+The hacker seemed to have done it just to do it. Maybe to be able to sell information but the posted it for 
+free on a hacker form.
+
+In March of 2019 a cybersecurity expert found out that facebook was just storing millions of passwords in plain 
+text files that was accessible to over 2,000 employees. 
+
+They added two-way and to reuse passwords.
